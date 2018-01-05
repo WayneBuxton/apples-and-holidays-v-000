@@ -94,7 +94,7 @@ def all_holidays_with_bbq(holiday_hash)
       end
        #binding.pry
      end
-     
+
    end.flatten
 holiday
   # return an array of holiday names (as symbols) where supply lists
