@@ -89,8 +89,9 @@ end
 def all_holidays_with_bbq(holiday_hash)
     holiday_hash.collect do |season,holiday|
      holiday.collect do |holiday,supplies|
-       
-      binding.pry
+       binding.pry
+     end
+
     end
 
   # return an array of holiday names (as symbols) where supply lists
