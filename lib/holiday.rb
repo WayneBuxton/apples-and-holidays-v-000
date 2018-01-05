@@ -90,7 +90,8 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_hash.collect do |season,holiday|
      holiday.collect do |holiday,supplies|
       if supplies.include?("BBQ")
-         holiday.to_sym
+         holiday.Hash.new
+         binding.pry
       end
        #binding.pry
      end
