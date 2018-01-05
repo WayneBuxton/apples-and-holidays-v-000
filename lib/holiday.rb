@@ -88,7 +88,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
     holiday_hash.collect do |season,holiday|
-    if  holiday.keys == "BBQ" 
+    if  holiday.keys 
       binding.pry
     end
 
