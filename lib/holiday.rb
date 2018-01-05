@@ -91,9 +91,9 @@ def all_holidays_with_bbq(holiday_hash)
      holiday.collect do |holiday,supplies|
       if supplies.include?("BBQ")
          holiday
-      end
+      end.join
        #binding.pry
-     end.join
+     end
 
    end.flatten.to_sym
 
